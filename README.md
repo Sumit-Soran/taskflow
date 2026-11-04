@@ -4,7 +4,7 @@ TaskFlow is a robust, production-grade project and task tracking application bui
 
 ---
 
-## 🌟 Features & Highlights
+## Features & Highlights
 
 - **JWT Authentication & Security:** Secure token-based access with ownership isolation (users only access their own projects and associated tasks).
 - **Interactive Kanban Board:** Drag-and-drop / status progression (`TODO`, `IN_PROGRESS`, `DONE`) with real-time UI updates.
@@ -15,7 +15,7 @@ TaskFlow is a robust, production-grade project and task tracking application bui
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Backend:** Kotlin, Spring Boot 3.2.5, Spring Security, JWT (`jjwt 0.11.5`), Spring Data JPA, H2 Database, Jakarta Validation
 - **Frontend:** React 18, Vite, TypeScript, Axios, Lucide React Icons, Vitest, React Testing Library
@@ -23,9 +23,9 @@ TaskFlow is a robust, production-grade project and task tracking application bui
 
 ---
 
-## 🏗️ Architecture & Design Patterns
+## Architecture & Design Patterns
 
-1. **Layered Architecture:** Strict separation of concerns: `Controller` → `Service` → `Repository`.
+1. **Layered Architecture:** Strict separation of concerns: `Controller` -> `Service` -> `Repository`.
 2. **Repository Pattern:** Encapsulates data access logic using Spring Data JPA abstractions for domain aggregates.
 3. **Data Transfer Object (DTO) Pattern:** Decouples API contract representations from database entities to prevent over-posting and protect internal schema.
 4. **Global Exception Handling:** Centralized `@RestControllerAdvice` delivering standardized JSON error structures with field-level validation constraints.
@@ -36,7 +36,7 @@ We chose standard **React Context + Hooks** with centralized Axios API clients. 
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Java JDK 17+
